@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Legal | LexMaster PRO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+        body { font-family: 'Montserrat', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .legal-card { background: white; border-radius: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); }
+        .section-icon { color: #1a3a5f; background: #f1f5f9; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; }
+        h2 { color: #1a3a5f; font-weight: 800; text-transform: uppercase; letter-spacing: -0.025em; }
+        p, li { line-height: 1.7; color: #475569; font-size: 0.95rem; }
+        strong { color: #1a3a5f; }
+    </style>
+</head>
+<body class="py-12 px-4 md:px-8">
+
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <div class="inline-flex items-center justify-center w-20 h-20 bg-[#1a3a5f] rounded-3xl mb-6 shadow-xl">
+                <i class="fas fa-balance-scale text-white text-3xl"></i>
+            </div>
+            <h1 class="text-4xl font-black text-[#1a3a5f] mb-2 uppercase tracking-tighter">Centro Legal</h1>
+            <p class="text-gray-500 font-bold uppercase tracking-widest text-xs">LexMaster Academy PRO • Versión 2026.1</p>
+        </header>
+
+        <div class="space-y-8">
+            
+            <!-- 1. Política de Privacidad -->
+            <section class="legal-card p-8 md:p-10 border-t-4 border-[#1a3a5f]">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="section-icon"><i class="fas fa-user-shield"></i></div>
+                    <h2>Política de Privacidad</h2>
+                </div>
+                <div class="space-y-4">
+                    <p>En **LexMaster PRO**, la privacidad de nuestros estudiantes es fundamental. Esta política detalla cómo manejamos la información:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Recopilación de Datos:</strong> Solo recopilamos datos técnicos necesarios para el funcionamiento de la app, como el progreso académico, XP y nivel actual, vinculados a un identificador anónimo (UID).</li>
+                        <li><strong>Uso de la Información:</strong> Los datos se utilizan exclusivamente para sincronizar tu progreso entre dispositivos y ofrecer una experiencia de aprendizaje personalizada.</li>
+                        <li><strong>Almacenamiento:</strong> Utilizamos **Google Firebase** como proveedor de infraestructura en la nube, garantizando que tu información no se comparta con terceros ajenos a la operación técnica del servicio.</li>
+                        <li><strong>Derechos del Usuario:</strong> Puedes solicitar la eliminación de tu cuenta anónima y todos los datos asociados directamente desde la configuración de la aplicación.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 2. Seguridad de Datos -->
+            <section class="legal-card p-8 md:p-10 border-t-4 border-[#c5a059]">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="section-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h2>Seguridad y Protección</h2>
+                </div>
+                <div class="space-y-4">
+                    <p>Implementamos medidas de seguridad de grado industrial para proteger el ecosistema educativo:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Cifrado:</strong> Toda la comunicación entre la aplicación y nuestros servidores viaja a través de protocolos **HTTPS/TLS** con cifrado de 256 bits.</li>
+                        <li><strong>Anti-Fraude:</strong> Monitoreamos comportamientos inusuales en la obtención de XP y vidas para mantener la integridad de la competencia académica.</li>
+                        <li><strong>Transacciones Seguras:</strong> Las compras dentro de la app son gestionadas por **Google Play Billing** o **PayPal**, lo que significa que LexMaster nunca tiene acceso a los datos de tu tarjeta de crédito o cuenta bancaria.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 3. Política de Publicidad y Monetización -->
+            <section class="legal-card p-8 md:p-10 border-t-4 border-indigo-500">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="section-icon"><i class="fas fa-ads"></i></div>
+                    <h2>Publicidad y Monetización</h2>
+                </div>
+                <div class="space-y-4">
+                    <p>Para mantener LexMaster PRO como una herramienta accesible, utilizamos un modelo de monetización transparente:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Anuncios de Recompensa:</strong> Los usuarios pueden optar por visualizar anuncios cortos (Ads) para recuperar vidas de forma inmediata. No mostramos anuncios intrusivos durante el proceso de examen.</li>
+                        <li><strong>Membresía Premium:</strong> Ofrecemos una versión PRO que elimina la necesidad de anuncios y otorga beneficios académicos ilimitados.</li>
+                        <li><strong>Proveedores de Ads:</strong> Trabajamos con redes certificadas que cumplen con las políticas de contenido familiar y educativo de Google.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 4. Descargo de Responsabilidad (Muy importante para Derecho) -->
+            <section class="bg-blue-900 text-white p-8 md:p-10 rounded-[32px] shadow-2xl">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="bg-white/10 w-12 h-12 rounded-xl flex items-center justify-center text-xl"><i class="fas fa-gavel"></i></div>
+                    <h2 class="text-white">Aviso Legal Educativo</h2>
+                </div>
+                <p class="text-blue-100 text-sm italic">
+                    LexMaster PRO es una herramienta de apoyo al estudio y entretenimiento educativo. Los certificados emitidos son de carácter simbólico y académico virtual; **no constituyen un título profesional oficial, cédula profesional o habilitación para el ejercicio de la abogacía** ante ninguna autoridad gubernamental o colegiado de abogados.
+                </p>
+            </section>
+
+        </div>
+
+        <!-- Footer Legal -->
+        <footer class="mt-16 text-center border-t border-gray-200 pt-8">
+            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.3em]">© 2026 LexMaster Academy PRO. Todos los derechos reservados.</p>
+            <div class="flex justify-center gap-6 mt-4">
+                <a href="#" class="text-xs font-black text-[#1a3a5f] hover:underline">Soporte</a>
+                <a href="#" class="text-xs font-black text-[#1a3a5f] hover:underline">Términos de Servicio</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
